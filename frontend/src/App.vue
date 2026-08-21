@@ -40,7 +40,9 @@ onMounted(async () => {
     <main class="max-w-7xl py-12 px-3 grow mx-auto w-full 2xl:border-l 2xl:border-r border-neutral-800">
       <router-view></router-view>
     </main>
+  </div>
 
+  <div class="bg-neutral-950 text-white font-sans">
     <footer class="border-t py-6 text-center text-sm text-neutral-500 select-none border-neutral-800 bg-neutral-900/50">
       <div class="flex items-center justify-center gap-2 mb-3">
         <span class="h-2 w-2 rounded-full" :class="apiStatus ? 'bg-green-500' : 'bg-red-500'"></span>
@@ -62,7 +64,6 @@ onMounted(async () => {
       <strong>Das Zyneon Collective ist Teil der <a class="text-neutral-400 hover:text-white transition" href="https://www.zyneonstudios.com" target="_blank">Zyneon Studios</a></strong>
       <p>&copy; 2026 <a class="text-neutral-400 hover:text-white transition" href="https://www.zyneonstudios.com" target="_blank">Zyneon Studios</a>. Alle Rechte vorbehalten.</p>
     </footer>
-
   </div>
 </template>
 
