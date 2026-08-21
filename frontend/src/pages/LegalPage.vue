@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="rounded-2xl border mx-0 md:mx-8 p-6 shadow-sm sm:p-10 border-zinc-800 bg-zinc-900">
+  <div class="rounded-2xl border m-4 md:m-8 p-6 shadow-sm sm:p-10 border-zinc-800 bg-zinc-900">
     <div class="space-y-8 leading-relaxed text-gray-400">
 
       <h2 class="text-2xl font-bold tracking-tight sm:text-3xl text-white">

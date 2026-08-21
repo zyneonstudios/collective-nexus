@@ -9,10 +9,11 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    animation: banner-motion-blur 500ms ease;
+    animation: banner-motion-blur 1s ease;
 
     h1 {
         text-shadow: 0 0 0.8rem black;
+        animation: banner-text 0.75s ease;
     }
 }
 
@@ -22,6 +23,7 @@
     border-bottom: 1px solid var(--color-zinc-800);
     overflow: hidden;
     height: 16rem;
+    animation: banner-color 1.5s ease;
 
     .banner-bgimg {
         position: absolute;
@@ -29,7 +31,29 @@
         width: 100%;
         background: url('../img/banner.jpg');
         background-size: cover;
-        animation: banner-scale 500ms ease;
+        animation: banner-scale 0.75s ease;
+    }
+}
+
+@keyframes banner-text {
+    0% {
+        filter: grayscale(100%);
+        scale: 0.75;
+    }
+
+    100% {
+        filter: grayscale(0);
+        scale: 1;
+    }
+}
+
+@keyframes banner-color {
+    0% {
+        filter: grayscale(100%);
+    }
+
+    100% {
+        filter: grayscale(0);
     }
 }
 

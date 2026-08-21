@@ -18,7 +18,7 @@ onMounted(async () => {
   <div class="min-h-screen bg-neutral-950 text-white font-sans flex flex-col">
     <nav class="border-b border-neutral-800 bg-neutral-900/50 backdrop-blur-md sticky top-0 select-none shadow-2xl">
       <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <router-link to="/" class="text-xl font-bold tracking-wider text-white flex items-center gap-2 excluded">
+        <router-link to="/" class="text-xl font-bold tracking-wider text-white flex items-center gap-2 excluded animate">
           <span class="text-sky-500">Zyneon</span> Collective
         </router-link>
 
@@ -37,7 +37,7 @@ onMounted(async () => {
     <div class="banner-background">
       <div class="banner-bgimg"/>
     </div>
-    <main class="max-w-7xl py-12 px-3 grow mx-auto w-full 2xl:border-l 2xl:border-r border-neutral-800">
+    <main class="max-w-7xl grow mx-auto">
       <router-view></router-view>
     </main>
   </div>
@@ -68,6 +68,7 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-
-
+.animate {
+  animation: banner-color 1s ease;
+}
 </style>
