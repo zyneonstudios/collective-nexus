@@ -17,6 +17,24 @@
   }
 }
 
+@font-face {
+  font-family: 'Excluded';
+  src: url('assets/zyneon/fonts/Excluded.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ExcludedItalic';
+  src: url('assets/zyneon/fonts/ExcludedItalic.ttf') format('truetype');
+}
+
+.excluded {
+  font-family: 'Excluded', var(--sans), sans-serif;
+}
+
+.excluded-italic {
+  font-family: 'ExcludedItalic', var(--sans), sans-serif;
+}
+
 body {
     margin: 0;
 }

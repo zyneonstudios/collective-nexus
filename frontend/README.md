@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+## Legal, Credits & Attribution
+- Main README.md: [here](https://github.com/zyneonstudios/collective-nexus/blob/main/README.md)
+- This project is licensed under the [MIT License](https://github.com/zyneonstudios/collective-nexus/blob/main/LICENSE.md).
+- We are using third party images and libraries/dependencies to run this website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Images, Audiofiles & Videos
+- Banner background image by [Magnific](https://www.magnific.com/): [Image](https://www.magnific.com/free-vector/stylish-glowing-digital-red-lines-banner_7082673.htm)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Dependencies
+
+| Package              | Version   | License                                                                |
+|----------------------|-----------|------------------------------------------------------------------------|
+| `vite`               | `8.2.0`   | MIT                                                                    |
+| `vue`                | `3.5.40`  | MIT                                                                    |
+| `@vitejs/plugin-vue` | `6.0.8`   | MIT                                                                    |
+| `tailwindcss`        | `4.3.3`   | MIT                                                                    |
+| `@tailwindcss/vite`  | `4.3.3`   | MIT                                                                    |
+| `nodejs`             | `24.19.0` | [here](https://github.com/nodejs/node/tree/main?tab=License-1-ov-file) |
+| `pnpm`               | `11.20.0` | MIT                                                                    |

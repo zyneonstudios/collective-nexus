@@ -6,8 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class NexusPlatform {
 
-    static void main(String[] args) {
-        SpringApplication.run(NexusPlatform.class, args);
+    private static NexusPlatform instance;
 
+    static void main(String[] args) {
+        instance = new NexusPlatform();
+        SpringApplication.run(NexusPlatform.class, args);
+    }
+
+    public static NexusPlatform getInstance() {
+        return instance;
     }
 }
